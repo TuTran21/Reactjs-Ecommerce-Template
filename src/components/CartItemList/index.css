@@ -1,0 +1,13 @@
+.product-item {
+  background: seashell;
+  padding: 15px 10px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.product-item span {
+  flex: 0.2;
+}
+.product-item:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.comment{
+  padding: 10px 0px 0px;
+  justify-content: space-around;
+}
+.profilePic>img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.profilePic>p{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.profilePic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 10px 10px;
+}
+
+.dates{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dates p{
+  font-size: 14px;
+  margin: 0px;
+}
+
+.likes{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+}
+
+.likes>i{
+  font-size: 17px;
+  margin: 0px 10px;
+}
+
+.likes>i.active{
+  color: rgb(72, 72, 211);
+}
+
+.likes>i:hover{
+  font-size: 22px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.comment-container{
+  height: 250px;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.comment-publish{
+  display: flex;
+  justify-content: space-around;
+}
+
+.comment-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  margin: 5px 0px 5px 0px;
+}
+
+.comment-input>input{
+  flex-grow: 1;
+  height: 40px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 0.5px grey solid;
+}
+
+.comment-input>input:focus{
+  box-shadow: 0px 0px 6px 1px rgb(98, 98, 241);
+}
+
+button[type=submit] {
+  height: 47px;
+  min-width: 40px;
+  width: 40px;
+}

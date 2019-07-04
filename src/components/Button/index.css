@@ -1,0 +1,15 @@
+.btn {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  min-width: 150px;
+  font-size: 14px;
+  outline: none;
+}
+.btn.checkout{
+  border-radius: 0px;
+}
+.btn:hover {
+  cursor: pointer;
+  border: 1px solid #36a579;
+}

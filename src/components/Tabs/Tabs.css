@@ -1,0 +1,33 @@
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+  margin-bottom: 0px;
+}
+
+.tabs{
+  margin-bottom: 10px;
+}
+
+.tab-content{
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+
+.tab-list-item:hover {
+  cursor: pointer;
+}
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+  font-weight: 600;
+}

@@ -1,0 +1,50 @@
+/* Animation */
+.product {
+  border-radius: 3px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0 none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+  margin: 10px;
+  width: 350px;
+  height: 450px;
+}
+
+.imgContainer{
+  position: relative;
+}
+
+.product-item {
+  background: seashell;
+  padding: 15px 10px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.product-item span {
+  flex: 0.2;
+}
+.product-item:hover {
+  cursor: pointer;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+}
+
+.productImg{
+  width: 100%;
+  margin: 10px 0px 30px 0px;
+}
+
+.productName{
+  font-weight: 400;
+}
+
+.productPrice{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}

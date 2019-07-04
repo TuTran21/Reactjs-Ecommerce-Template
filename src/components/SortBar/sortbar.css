@@ -1,0 +1,81 @@
+#sortBar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 150px;
+  width: 30%;
+  height: 500px;
+  align-self: flex-start;
+}
+
+#sortBar p{
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+#sortBar ul>li>label{
+  margin: 0px;
+  display: inline-block;
+}
+
+#sortBar input[type=radio]:hover,
+#sortBar input[type=text]:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 1px rgb(135, 145, 230);
+}
+
+#sortBar input[type=text]:focus{
+outline: none;
+}
+
+#sortBar input[type=text]{
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid rgb(52, 126, 238);
+  padding: 0px 5px;
+  width: 100%;
+}
+
+#sortBar input[type=radio] {
+  appearance: none;
+  margin-right: 3px;
+  width: 20px;
+  border-radius: 50%;
+  height: 20px;
+  border: 1.5px solid rgb(52, 126, 238)
+
+}
+#sortBar ul{
+  list-style: none;
+  width: 300px;
+  padding: 0px !important;
+}
+#sortBar li{
+  display: flex;
+}
+#sortBar input[type=radio]:checked{
+  box-shadow: 0px 0px 5px 1px rgb(135, 145, 230);
+}
+
+#sortBar input[type=radio]:checked::before {
+  position: absolute;
+  margin-left: 3.5px;
+  margin-top: 3px;
+  border-radius: 50%;
+  content: " ";
+  white-space: pre;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 255, 0.822);
+}
+
+#sortToggle{
+  width: 100px;
+  background: none !important;
+  color: rgb(39, 69, 243);
+  border: none;
+  margin-left: 15px;
+  height: 45px;
+}
