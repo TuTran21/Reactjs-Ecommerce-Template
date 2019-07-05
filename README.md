@@ -1,4 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Template includes:
+1. Product List page
+2. SortBar
+3. Login Modals
+4. Checkout Page
+5. Cart Dropdown
+6. NavBar
+7. Product Detail Page
 
 ## Available Scripts
 
